@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
     moduleId: module.id,
     selector: "header-tag",
     templateUrl: 'header.header.html'
+
 })
 
 

@@ -9,6 +9,7 @@ import { MockBackend, MockConnection } from '@angular/http/testing';
 import { BaseRequestOptions } from '@angular/http';
 
 import { AppComponent }  from './app.component';
+
 import { routing }        from './app.routing';
 
 import { AlertComponent } from './_directives/index';
@@ -18,6 +19,8 @@ import { HomeComponent } from './home/index';
 import { LoginComponent } from './login/index';
 import { RegisterComponent } from './register/index';
 import { HeaderComponent } from './header/index';
+import { MenuComponent } from './menu/index';
+
 
 @NgModule({
     imports: [
@@ -32,7 +35,10 @@ import { HeaderComponent } from './header/index';
         HomeComponent,
         LoginComponent,
         RegisterComponent,
-        HeaderComponent
+        HeaderComponent,
+        MenuComponent
+
+
     ],
     providers: [
         AuthGuard,
